@@ -1,0 +1,22 @@
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20, 22]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Unit tests (RFC 4493, AN12196, verifier rules, simulation)
+        run: npm test
+      - name: Known-answer check E0 (must pass before any result is reported)
+        run: node src/run-all.js --only E0
+      - name: End-to-end smoke run of every experiment (N = 200)
+        run: node src/run-all.js --trials 200
