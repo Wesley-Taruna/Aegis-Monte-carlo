@@ -1,0 +1,498 @@
+{
+  "id": "E5",
+  "title": "E5 Delayed-relay floor: formula vs simulation",
+  "rows": [
+    {
+      "tapsPerTrial": 20,
+      "D": 1,
+      "count": 9974,
+      "N": 10000,
+      "rate": 0.9974,
+      "wilsonLow": 0.9961929867910173,
+      "wilsonHigh": 0.9982250116298335,
+      "upper3N": null,
+      "formula": 0.9973294980772276,
+      "formulaInsideWilson": true,
+      "endEffectPLossOverK": 0.0025,
+      "beforeAccepted": 9974
+    },
+    {
+      "tapsPerTrial": 20,
+      "D": 5,
+      "count": 9382,
+      "N": 10000,
+      "rate": 0.9382,
+      "wilsonLow": 0.9333102033988203,
+      "wilsonHigh": 0.9427532604291187,
+      "upper3N": null,
+      "formula": 0.9430249863878274,
+      "formulaInsideWilson": false,
+      "endEffectPLossOverK": 0.0025,
+      "beforeAccepted": 9382
+    },
+    {
+      "tapsPerTrial": 20,
+      "D": 15,
+      "count": 8008,
+      "N": 10000,
+      "rate": 0.8008,
+      "wilsonLow": 0.7928570725059976,
+      "wilsonHigh": 0.8085119140742032,
+      "upper3N": null,
+      "formula": 0.8112444813707004,
+      "formulaInsideWilson": false,
+      "endEffectPLossOverK": 0.0025,
+      "beforeAccepted": 8008
+    },
+    {
+      "tapsPerTrial": 20,
+      "D": 30,
+      "count": 6374,
+      "N": 10000,
+      "rate": 0.6374,
+      "wilsonLow": 0.6279263595061026,
+      "wilsonHigh": 0.6467681177416353,
+      "upper3N": null,
+      "formula": 0.6469598881585036,
+      "formulaInsideWilson": false,
+      "endEffectPLossOverK": 0.0025,
+      "beforeAccepted": 6374
+    },
+    {
+      "tapsPerTrial": 20,
+      "D": 60,
+      "count": 3909,
+      "N": 10000,
+      "rate": 0.3909,
+      "wilsonLow": 0.3813799546622701,
+      "wilsonHigh": 0.4005038337822115,
+      "upper3N": null,
+      "formula": 0.4107162210335016,
+      "formulaInsideWilson": false,
+      "endEffectPLossOverK": 0.0025,
+      "beforeAccepted": 3909
+    },
+    {
+      "tapsPerTrial": 20,
+      "D": 120,
+      "count": 1551,
+      "N": 10000,
+      "rate": 0.1551,
+      "wilsonLow": 0.14813749781942093,
+      "wilsonHigh": 0.16232738425667176,
+      "upper3N": null,
+      "formula": 0.16433272675014943,
+      "formulaInsideWilson": false,
+      "endEffectPLossOverK": 0.0025,
+      "beforeAccepted": 1551
+    },
+    {
+      "tapsPerTrial": 20,
+      "D": 300,
+      "count": 104,
+      "N": 10000,
+      "rate": 0.0104,
+      "wilsonLow": 0.008591159114003776,
+      "wilsonHigh": 0.012584852090562745,
+      "upper3N": null,
+      "formula": 0.009933363347594919,
+      "formulaInsideWilson": true,
+      "endEffectPLossOverK": 0.0025,
+      "beforeAccepted": 104
+    },
+    {
+      "tapsPerTrial": 20,
+      "D": 600,
+      "count": 25,
+      "N": 10000,
+      "rate": 0.0025,
+      "wilsonLow": 0.0016939976111583195,
+      "wilsonHigh": 0.0036880807676648924,
+      "upper3N": null,
+      "formula": 0.00008594060269510161,
+      "formulaInsideWilson": false,
+      "endEffectPLossOverK": 0.0025,
+      "beforeAccepted": 25
+    },
+    {
+      "tapsPerTrial": 20,
+      "D": 1800,
+      "count": 27,
+      "N": 10000,
+      "rate": 0.0027,
+      "wilsonLow": 0.0018563306257756151,
+      "wilsonHigh": 0.003925594153699328,
+      "upper3N": null,
+      "formula": 4.815077026199236e-13,
+      "formulaInsideWilson": false,
+      "endEffectPLossOverK": 0.0025,
+      "beforeAccepted": 27
+    },
+    {
+      "tapsPerTrial": 20,
+      "D": 3600,
+      "count": 30,
+      "N": 10000,
+      "rate": 0.003,
+      "wilsonLow": 0.0021022876940520996,
+      "wilsonHigh": 0.004279406686400436,
+      "upper3N": null,
+      "formula": 2.0193449127237441e-25,
+      "formulaInsideWilson": false,
+      "endEffectPLossOverK": 0.0025,
+      "beforeAccepted": 30
+    },
+    {
+      "tapsPerTrial": 200,
+      "D": 1,
+      "count": 9970,
+      "N": 10000,
+      "rate": 0.997,
+      "wilsonLow": 0.9957205933135995,
+      "wilsonHigh": 0.9978977123059478,
+      "upper3N": null,
+      "formula": 0.9973294980772276,
+      "formulaInsideWilson": true,
+      "endEffectPLossOverK": 0.00025,
+      "beforeAccepted": 9970
+    },
+    {
+      "tapsPerTrial": 200,
+      "D": 5,
+      "count": 9439,
+      "N": 10000,
+      "rate": 0.9439,
+      "wilsonLow": 0.9392170226934293,
+      "wilsonHigh": 0.9482420635530839,
+      "upper3N": null,
+      "formula": 0.9430249863878274,
+      "formulaInsideWilson": true,
+      "endEffectPLossOverK": 0.00025,
+      "beforeAccepted": 9439
+    },
+    {
+      "tapsPerTrial": 200,
+      "D": 15,
+      "count": 8049,
+      "N": 10000,
+      "rate": 0.8049,
+      "wilsonLow": 0.7970166281294763,
+      "wilsonHigh": 0.8125492096640851,
+      "upper3N": null,
+      "formula": 0.8112444813707004,
+      "formulaInsideWilson": true,
+      "endEffectPLossOverK": 0.00025,
+      "beforeAccepted": 8049
+    },
+    {
+      "tapsPerTrial": 200,
+      "D": 30,
+      "count": 6403,
+      "N": 10000,
+      "rate": 0.6403,
+      "wilsonLow": 0.6308416666872837,
+      "wilsonHigh": 0.6496505833699043,
+      "upper3N": null,
+      "formula": 0.6469598881585036,
+      "formulaInsideWilson": true,
+      "endEffectPLossOverK": 0.00025,
+      "beforeAccepted": 6403
+    },
+    {
+      "tapsPerTrial": 200,
+      "D": 60,
+      "count": 4051,
+      "N": 10000,
+      "rate": 0.4051,
+      "wilsonLow": 0.39551653357254424,
+      "wilsonHigh": 0.41475634931821015,
+      "upper3N": null,
+      "formula": 0.4107162210335016,
+      "formulaInsideWilson": true,
+      "endEffectPLossOverK": 0.00025,
+      "beforeAccepted": 4051
+    },
+    {
+      "tapsPerTrial": 200,
+      "D": 120,
+      "count": 1597,
+      "N": 10000,
+      "rate": 0.1597,
+      "wilsonLow": 0.15265097502407723,
+      "wilsonHigh": 0.16701037426700524,
+      "upper3N": null,
+      "formula": 0.16433272675014943,
+      "formulaInsideWilson": true,
+      "endEffectPLossOverK": 0.00025,
+      "beforeAccepted": 1597
+    },
+    {
+      "tapsPerTrial": 200,
+      "D": 300,
+      "count": 114,
+      "N": 10000,
+      "rate": 0.0114,
+      "wilsonLow": 0.00949887105305334,
+      "wilsonHigh": 0.013676372154771828,
+      "upper3N": null,
+      "formula": 0.009933363347594919,
+      "formulaInsideWilson": true,
+      "endEffectPLossOverK": 0.00025,
+      "beforeAccepted": 114
+    },
+    {
+      "tapsPerTrial": 200,
+      "D": 600,
+      "count": 6,
+      "N": 10000,
+      "rate": 0.0006,
+      "wilsonLow": 0.0002750134763309977,
+      "wilsonHigh": 0.001308524096300786,
+      "upper3N": null,
+      "formula": 0.00008594060269510161,
+      "formulaInsideWilson": false,
+      "endEffectPLossOverK": 0.00025,
+      "beforeAccepted": 6
+    },
+    {
+      "tapsPerTrial": 200,
+      "D": 1800,
+      "count": 3,
+      "N": 10000,
+      "rate": 0.0003,
+      "wilsonLow": 0.00010203219941781012,
+      "wilsonHigh": 0.0008817357722363795,
+      "upper3N": null,
+      "formula": 4.815077026199236e-13,
+      "formulaInsideWilson": false,
+      "endEffectPLossOverK": 0.00025,
+      "beforeAccepted": 3
+    },
+    {
+      "tapsPerTrial": 200,
+      "D": 3600,
+      "count": 2,
+      "N": 10000,
+      "rate": 0.0002,
+      "wilsonLow": 0.00005484892732085777,
+      "wilsonHigh": 0.0007289958440074673,
+      "upper3N": null,
+      "formula": 2.0193449127237441e-25,
+      "formulaInsideWilson": false,
+      "endEffectPLossOverK": 0.00025,
+      "beforeAccepted": 2
+    }
+  ],
+  "notes": [
+    "Formula: F(D) = exp(-lambda q E[(D - X)+]), lambda = 1 / meanTapGapSeconds, q = 1 - pLoss, X = upload delay (base + reordering extra). Derivation in src/floor.js and README.",
+    "The formula is exact when the owner keeps tapping indefinitely. A finite trial differs in two ways. (1) Mid-range D: the capture moment always lies before the owner's last tap, which slightly shortens the wait for the next tap, so with 20 taps the simulated floor sits 1-2 points below the formula; with 200 taps this disappears. (2) Long D: with probability about 1/K the capture falls in the last gap of the trial, and if that final upload is lost (pLoss) nothing newer ever arrives. This leaves a residual floor of about pLoss/K (0.25% for K = 20, 0.025% for K = 200) that the infinite-horizon formula does not have.",
+    "beforeAccepted shows that every \"before\" relay was in fact accepted (the rate limit never interfered).",
+    "Gold scenario: no closed form is given. Taps come in bursts, so the Poisson assumption behind the formula does not hold; E4 reports the simulated floor only."
+  ],
+  "generatedAt": "2026-10-26T06:47:56.583Z",
+  "seed": 20261031,
+  "trialsPerConfig": 10000,
+  "config": {
+    "_readme": "All simulation parameters live here. Fields whose name starts with '_' are notes, not parameters. Every value marked ASSUMPTION is a modeling choice, not a measurement - change it and re-run, never tune it to make results look better.",
+    "seed": 20261031,
+    "trialsPerConfig": 10000,
+    "tag": {
+      "_note": "Tag model per NXP AN12196 (SUN MAC). macBits = 64 is the real NTAG 424 DNA truncated MAC; smaller values are only for experiment E1.",
+      "macBits": 64,
+      "tamperInMac": true,
+      "_tamperInMac": "DEPLOYMENT REQUIREMENT (NXP NT4H2421Tx (NTAG 424 DNA TT) product data sheet, Rev. 3.0, 31 Jan 2019, Doc. 465530, Sec. 9.3.4-9.3.5): the SDMMAC covers the file data from SDMMACInputOffset to SDMMACOffset - 1, and the tamper status is mirrored at TTStatusOffset. The MAC protects the tamper status only if the tag is configured with TTStatusOffset inside that range. true = such a tag; false = a tag configured without it.",
+      "_tamperStatusFormat": "MODEL SIMPLIFICATION: the chip mirrors two ASCII characters, TTPermStatus || TTCurrStatus, each C (closed), O (open) or I (invalid: tamper feature not enabled) (data sheet Sec. 9.3.5, 10.2). The model mirrors one C/O character and assumes the tamper feature is enabled.",
+      "plaintextMirroring": true,
+      "_plaintextMirroring": "ASSUMPTION: UID and counter are mirrored as plain hex text (not the encrypted PICCData mode)."
+    },
+    "verifier": {
+      "_note": "Default server policy, used by E3 (as one of the selected settings), E4, A1 and A5. W = backward window, T = time rule in seconds (null = off).",
+      "W": 4,
+      "T": 30,
+      "rateLimit": {
+        "maxAttempts": 10,
+        "windowSeconds": 60,
+        "_note": "ASSUMPTION: at most 10 verification attempts per tag per 60 s (sliding window). Failed MAC checks count."
+      }
+    },
+    "owner": {
+      "_note": "Default owner = the 'steady' scenario. ASSUMPTION: an honest owner taps tapsPerTrial times; gaps between taps are exponential with mean meanTapGapSeconds.",
+      "model": "steady",
+      "tapsPerTrial": 20,
+      "meanTapGapSeconds": 60
+    },
+    "scenarios": {
+      "_note": "E2, E3 and E4 are run once per scenario. Each scenario replaces fields of 'owner' (and may set its own attacker delays for E4).",
+      "steady": {
+        "label": "Steady taps (every ~60 s)",
+        "_note": "Comparison scenario: one owner tapping on average every 60 s, 20 taps per trial.",
+        "owner": {}
+      },
+      "gold": {
+        "label": "Gold sales (bursts, quiet days to weeks)",
+        "_note": "ASSUMPTION: a gold bar changes hands in sales. In each sale the seller and buyer tap 2-4 times in total, a few minutes apart (random gaps, 90 s on average). Between sales the bar sits in storage for 1-28 days. Each trial covers 6 sales. Attackers who need the bar in hand act only during a sale or up to 2 minutes after its last tap. (Fields: tapsPerSale, meanGapWithinSaleSeconds, quietGapDays, salesPerTrial, captureTailSeconds.)",
+        "owner": {
+          "model": "gold",
+          "salesPerTrial": 6,
+          "tapsPerSale": [
+            2,
+            4
+          ],
+          "meanGapWithinSaleSeconds": 90,
+          "quietGapDays": [
+            1,
+            28
+          ],
+          "captureTailSeconds": 120
+        },
+        "e4DelaySecondsList": [
+          1,
+          5,
+          15,
+          30,
+          60,
+          120,
+          300,
+          600,
+          1800,
+          3600,
+          21600,
+          86400,
+          604800,
+          2592000
+        ]
+      }
+    },
+    "channel": {
+      "_note": "ASSUMPTION (not measured): each honest upload is lost with probability pLoss; otherwise delayed by a uniform base delay, plus, with probability pReorder, an extra delay large enough to arrive after later uploads.",
+      "pLoss": 0.05,
+      "pReorder": 0.05,
+      "baseDelaySeconds": [
+        0.2,
+        2
+      ],
+      "reorderExtraDelaySeconds": [
+        5,
+        300
+      ]
+    },
+    "attackers": {
+      "A1": {
+        "_note": "Clone: same UID, different (random) key, fresh counter. One clone message per trial at a random moment during the owner's activity."
+      },
+      "A2": {
+        "_note": "Replay: resubmits a previously accepted owner message after a uniform delay.",
+        "replayDelaySeconds": [
+          1,
+          600
+        ]
+      },
+      "A3": {
+        "_note": "MAC guessing: chosen fresh counter, random MAC, attempts spaced so the rate limit never blocks them (the best a patient attacker can do)."
+      },
+      "A4": {
+        "_note": "Delayed relay: attacker taps the genuine tag at a random moment of the owner's activity, keeps the message, submits it D seconds later. Server-side this is identical to intercepting an upload that never arrives.",
+        "defaultDelaySeconds": 30
+      },
+      "A5": {
+        "_note": "Tamper-flag forgery: the seal is open; attacker taps, changes 'open' to 'closed', submits with the unchanged MAC or a random guessed MAC."
+      }
+    },
+    "experiments": {
+      "scenarios": [
+        "steady",
+        "gold"
+      ],
+      "_scenarios": "Scenarios used by E2, E3 and E4 (keys of 'scenarios').",
+      "E1": {
+        "macBitsList": [
+          8,
+          12,
+          16
+        ],
+        "attemptsList": [
+          1,
+          10,
+          100,
+          1000
+        ],
+        "b64AttackDurationsDays": [
+          1,
+          30,
+          365,
+          3650
+        ]
+      },
+      "E2": {
+        "WList": [
+          0,
+          1,
+          2,
+          4,
+          8,
+          16,
+          32
+        ],
+        "TList": [
+          null,
+          5,
+          30,
+          300
+        ]
+      },
+      "E3": {
+        "pLossList": [
+          0,
+          0.05,
+          0.1,
+          0.2
+        ],
+        "pReorderList": [
+          0,
+          0.01,
+          0.05,
+          0.1
+        ],
+        "policies": [
+          {
+            "W": 0,
+            "T": null
+          },
+          {
+            "W": 4,
+            "T": 30
+          },
+          {
+            "W": 4,
+            "T": 300
+          },
+          {
+            "W": 32,
+            "T": null
+          }
+        ]
+      },
+      "E4": {
+        "delaySecondsList": [
+          1,
+          5,
+          15,
+          30,
+          60,
+          120,
+          300,
+          600,
+          1800,
+          3600
+        ]
+      },
+      "E5": {
+        "_note": "Floor formula check (steady scenario only; the formula assumes Poisson taps). Run at the normal trial length and at a long one, to show the end-of-trial effect.",
+        "tapsPerTrialList": [
+          20,
+          200
+        ]
+      }
+    }
+  }
+}

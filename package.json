@@ -1,0 +1,27 @@
+{
+  "name": "aegis-sdm-monte-carlo",
+  "version": "1.0.0",
+  "description": "Monte Carlo evaluation of server-side counter-check policies for NXP NTAG 424 DNA TT Secure Dynamic Messaging",
+  "author": "Wesley Nehemia Taruna",
+  "contributors": [
+    "Julian Farrel Lie",
+    "Robertus Nugroho Perwiro Atmojo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wesley-Taruna/Aegis-Monte-carlo.git"
+  },
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "demo": "node src/demo.js",
+    "experiments": "node src/run-all.js",
+    "quick": "node src/run-all.js --trials 1000",
+    "plots": "python3 plots/make_plots.py",
+    "web": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

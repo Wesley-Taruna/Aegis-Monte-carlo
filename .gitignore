@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+*.log
+
+# Local tooling and working notes (not part of the published code)
+.claude/
+aegis-simulation-prompt.md
+
+# NXP documents are cited, not redistributed
+docs/*.pdf

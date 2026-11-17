@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aegis SDM Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <div class="title-row">
+        <div class="brand">
+          <h1>Aegis SDM Monte Carlo Simulator</h1>
+          <p>How strict should the server's counter check be? NTAG 424 DNA TT &middot; server verification policy only</p>
+        </div>
+        <div class="controls">
+          <label>Trials N <input id="ctl-trials" type="number" min="10" step="100"></label>
+          <label>Seed <input id="ctl-seed" type="number"></label>
+          <button id="btn-run-all" class="primary">Run all experiments</button>
+          <button id="btn-theme" class="icon" title="Toggle light / dark" aria-label="Toggle theme">&#9680;</button>
+        </div>
+      </div>
+      <div class="title-row" style="margin-top:6px">
+        <div class="status-line" id="status-line"></div>
+        <div class="progress" id="progress"><div></div></div>
+      </div>
+      <nav class="tabs" id="tabs" role="tablist"></nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel" id="p-overview" data-tab="Overview"></section>
+    <section class="panel" id="p-E0" data-tab="E0 Correctness"></section>
+    <section class="panel" id="p-demo" data-tab="Demo"></section>
+    <section class="panel" id="p-trace" data-tab="Trace explorer"></section>
+    <section class="panel" id="p-E1" data-tab="E1 Guessing"></section>
+    <section class="panel" id="p-E2" data-tab="E2 Window sweep"></section>
+    <section class="panel" id="p-E3" data-tab="E3 Sensitivity"></section>
+    <section class="panel" id="p-E4" data-tab="E4 Delayed relay"></section>
+    <section class="panel" id="p-E5" data-tab="E5 Floor formula"></section>
+    <section class="panel" id="p-A1A5" data-tab="A1 &amp; A5"></section>
+    <section class="panel" id="p-config" data-tab="Assumptions"></section>
+  </main>
+  <div class="tooltip" id="tooltip"></div>
+  <script src="charts.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

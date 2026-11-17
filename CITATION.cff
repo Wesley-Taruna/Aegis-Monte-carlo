@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Aegis SDM Monte Carlo Simulator: counter-check policies for NTAG 424 DNA TT"
+type: software
+version: 1.0.0
+date-released: 2026-11-17
+repository-code: "https://github.com/Wesley-Taruna/Aegis-Monte-carlo"
+authors:
+  - given-names: Wesley Nehemia
+    family-names: Taruna
+    affiliation: "School of Information Systems, Bina Nusantara University"
+  - given-names: Julian Farrel
+    family-names: Lie
+    affiliation: "School of Information Systems, Bina Nusantara University"
+  - given-names: Robertus Nugroho Perwiro
+    family-names: Atmojo
+    affiliation: "School of Information Systems, Bina Nusantara University"
+keywords:
+  - NFC
+  - NTAG 424 DNA
+  - Secure Dynamic Messaging
+  - AES-CMAC
+  - replay protection
+  - Monte Carlo simulation
+abstract: >-
+  Monte Carlo simulator of server-side counter-check policies for NXP NTAG 424
+  DNA TT Secure Dynamic Messaging. It models the tag, the verifier, honest
+  owners over a lossy and reordering channel, and five attackers, and reports
+  honest false-reject and attack-acceptance rates with 95% Wilson intervals.

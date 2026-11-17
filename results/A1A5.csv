@@ -1,0 +1,4 @@
+attacker,count,N,rate,wilsonLow,wilsonHigh,upper3N,rejected_rate_limit,rejected_mac,rejected_duplicate,rejected_window,rejected_time,rejected_unknown_uid
+"A1 Clone (same UID, wrong key)",0,10000,0,0,0.00038399837067659573,0.0003,0,10000,0,0,0,0
+"A5 Tamper flip, unchanged MAC",0,10000,0,0,0.00038399837067659573,0.0003,0,10000,0,0,0,0
+"A5 Tamper flip, guessed MAC",0,10000,0,0,0.00038399837067659573,0.0003,0,10000,0,0,0,0
